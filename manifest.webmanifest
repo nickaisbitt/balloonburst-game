@@ -1,13 +1,16 @@
 {
+  "id": "./",
   "name": "Balloon Burst — Tower Defense",
   "short_name": "Balloon Burst",
-  "description": "Pop them all before they reach the castle! A cheerful balloon-popping tower defense across 113 handmade maps.",
-  "start_url": "/",
-  "display": "fullscreen",
-  "orientation": "portrait",
+  "description": "Pop them all before they reach the castle! A cheerful balloon-popping tower defense across 123 handmade maps.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
-    { "src": "/icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any maskable" }
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
