@@ -5,12 +5,55 @@
   "description": "Pop them all before they reach the castle! A cheerful balloon-popping tower defense across 123 handmade maps.",
   "start_url": "./",
   "scope": "./",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "entertainment"],
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "orientation": "portrait",
+  "background_color": "#57c9f5",
+  "theme_color": "#57c9f5",
   "icons": [
     { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
     { "src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "./screens/home-portrait.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "form_factor": "portrait",
+      "label": "The journey screen — pick a stage and start popping"
+    },
+    {
+      "src": "./screens/gameplay-portrait.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "form_factor": "portrait",
+      "label": "Place towers, pop every balloon before it reaches the castle"
+    },
+    {
+      "src": "./screens/home-wide.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Balloon Burst plays full-screen in any browser"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Play",
+      "short_name": "Play",
+      "description": "Jump straight into a run — resumes a saved game if you have one.",
+      "url": "./?play=1",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Daily challenge",
+      "short_name": "Daily",
+      "description": "Today's hand-rolled challenge map.",
+      "url": "./?daily=1",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
   ]
 }
