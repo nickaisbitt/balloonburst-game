@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nickaisbitt.github.io/balloonburst-game/sitemap.xml
