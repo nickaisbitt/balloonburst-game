@@ -19,10 +19,10 @@
 // Registered web-only (never inside the native WKWebView) and only in
 // production; src/serviceWorker.ts guards both.
 
-const VERSION = "2.1.0+35d78fc1";
+const VERSION = "2.1.0+d2199312";
 const CACHE = `balloon-burst-v${VERSION}`;
 
-const APP_SHELL = ["./","./index.html","./manifest.webmanifest","./privacy.html","./icon-180.png","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./assets/fredoka-var-DOQG_Jwn.woff2","./assets/index-7kctH1I1.js","./assets/index-Dpa-5W2D.css","./assets/index-E2vahfYC.js","./assets/nunito-var-CjueodBP.woff2","./assets/web-DlP5xOQh.js"];
+const APP_SHELL = ["./","./index.html","./manifest.webmanifest","./privacy.html","./icon-180.png","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./assets/fredoka-var-DOQG_Jwn.woff2","./assets/index-BIT23upY.js","./assets/index-DPY5--p5.css","./assets/index-W38g1X3w.js","./assets/nunito-var-CjueodBP.woff2","./assets/web-DpmAAUE7.js"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
